@@ -40,6 +40,7 @@ class Feature(object):
     :type max_results: int
     :param max_results: Number of results to return for the specified
                         feature type.
+                        If `None` then all results will be returned.
 
     See:
     https://cloud.google.com/vision/reference/rest/v1/images/annotate#Feature
